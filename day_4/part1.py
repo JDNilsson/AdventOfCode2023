@@ -6,11 +6,7 @@ with open("/home/danne/Git_Repos/AdventOfCode2024/day_4/input","r") as f:
 
 m = len(lines)
 n = len(lines[0])
-off = 0
-for line in lines:
-    if (not (len(line) == n)): 
-        off += 1
-print(off)
+
 def find_XMAS(i,j,x,y):
     return ((lines[i+y][j+x] == 'M') and 
         (lines[i+2*y][j+2*x] == 'A') and 
