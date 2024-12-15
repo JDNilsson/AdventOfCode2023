@@ -1,5 +1,6 @@
 import re
 
+#with open("/home/danne/Git_Repos/AdventOfCode2024/day_3/test","r") as f:
 with open("/home/danne/Git_Repos/AdventOfCode2024/day_3/input","r") as f:
    muls = re.findall(r"mul\((\d+),(\d+)\)",f.read())
 

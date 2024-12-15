@@ -1,5 +1,6 @@
 import re
 
+#with open("/home/danne/Git_Repos/AdventOfCode2024/day_3/test","r") as f:
 with open("/home/danne/Git_Repos/AdventOfCode2024/day_3/input","r") as f:
     dont_blocks = re.split(r"don't\(\)",f.read())
     do_blocks = []
